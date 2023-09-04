@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "app";
+    return "app"; // Change this to "app2" to load "app2"'s JS bundle
   }
 
   /**
