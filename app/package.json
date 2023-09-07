@@ -1,17 +1,15 @@
 {
   "name": "app",
   "version": "0.0.1",
-  "private": true,
-  "workspaces":[
-    "packages/*"
-  ],
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "pod": "cd ios && pod install && cd ..",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "prep:app": "./build-prep.sh app app . .",
+    "prep:app2": "./build-prep.sh app2 app2 . ."
   },
   "dependencies": {
     "react": "18.2.0",

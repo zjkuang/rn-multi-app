@@ -15,7 +15,7 @@ const path = require('path');
 module.exports = {
   ...mergedConfig,
   watchFolders: [
-    path.resolve(__dirname, '../../node_modules'),
-    // path.resolve(__dirname, '../shared-components'),
+    path.resolve(__dirname, 'node_modules'),
+    path.resolve(__dirname, 'targets'),
   ],
 };
