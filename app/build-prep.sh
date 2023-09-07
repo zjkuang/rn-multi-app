@@ -5,8 +5,11 @@
 # $3: app.json path
 # $4: index.js path
 #
-# app: $0 app app . .
-# app2: $0 app2 app2 . .
+# Examples
+# (1) To generate app.json and index.js for `app`:
+#     $0 app app . .
+# (2) To generate app.json and index.js for `app2`:
+#     $0 app2 app2 . .
 
 # app.json
 echo '{' > $3/app.json
